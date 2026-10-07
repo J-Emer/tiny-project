@@ -1,0 +1,26 @@
+{
+    "name": "jemer/tiny-project",
+    "description": "A Tiny site: content, theme and config live here, the engine lives in jemer/tiny-core",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "jemer/tiny-core": "@dev"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.24",
+        "symfony/var-dumper": "^7.4"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../tiny-core"
+        }
+    ],
+    "authors": [
+        {
+            "name": "J-Emer",
+            "email": "jemerson6989@gmail.com"
+        }
+    ]
+}

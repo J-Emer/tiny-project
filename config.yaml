@@ -1,0 +1,28 @@
+site:
+  name: Tiny CMS
+  description: A tiny flat-file CMS
+  baseurl: http://localhost:8000
+  production_url: https://your-real-domain.com
+
+theme:
+  name: tiny-theme
+
+list:
+  title: List
+  slug: list
+  order: 3
+  template: list
+  build: true
+
+paths:
+  templates: theme
+  content: content
+  assets: assets
+  output: public
+  assets_output: public/assets
+
+
+
+
+
+

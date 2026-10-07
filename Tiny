@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+use Jemer\Tiny\Kernel;
+
+$autoload = __DIR__ . '/vendor/autoload.php';
+
+if (!is_file($autoload))
+{
+    fwrite(STDERR, 'Tiny: dependencies are not installed yet. Run: composer install' . PHP_EOL);
+    exit(1);
+}
+
+require $autoload;
+
+exit((new Kernel(__DIR__))->Run());
