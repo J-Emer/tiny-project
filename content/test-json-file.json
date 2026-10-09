@@ -1,0 +1,13 @@
+{
+  "title": "Test Json File",
+  "slug": "test-json-file",
+  "date": "2026-10-03T22:44:54.412288+02:00",
+  "template": "page",
+  "draft": false,
+  "nav": false,
+  "order": 1,
+  "tags": [
+    "outdoors"
+  ],
+  "content": "This is the content from a .json file."
+}
