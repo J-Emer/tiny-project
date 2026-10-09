@@ -2,3 +2,5 @@ vendor/
 public/
 .tiny-manifest.json
 
+/assets/images/*
+!/assets/images/.gitkeep
