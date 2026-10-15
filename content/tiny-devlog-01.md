@@ -4,7 +4,7 @@ slug: tiny-devlog-01
 date: '2026-10-06T03:03:29+02:00'
 template: page
 draft: false
-nav: true
+nav: false
 order: 3
 tags:
   - php
