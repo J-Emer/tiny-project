@@ -21,6 +21,11 @@ paths:
   output: public
   assets_output: public/assets
 
+page: 
+  truncate: 30
+  pretty_url: true
+  words_per_minute: 200
+
 
 
 
