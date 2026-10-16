@@ -25,6 +25,7 @@ page:
   truncate: 30
   pretty_url: true
   words_per_minute: 200
+  latest_pages: 3
 
 
 
